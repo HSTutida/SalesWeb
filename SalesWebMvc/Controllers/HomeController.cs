@@ -10,6 +10,7 @@ namespace SalesWebMvc.Controllers
 {
     public class HomeController : Controller
     {
+        //Method names are the name of the action
         public IActionResult Index()
         {
             return View();
@@ -17,7 +18,7 @@ namespace SalesWebMvc.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Salles Web MVC App";
 
             return View();
         }
